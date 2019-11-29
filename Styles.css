@@ -1,0 +1,228 @@
+#index {
+    margin: 0px auto;
+    }
+    
+    #author-Murakami {
+        font-family: 'Roboto', sans-serif;
+        font-size: 36px;
+        color: #9e4646;
+    }
+    .nav-item {
+        display: inline-block;
+        padding: 1px 25px;
+        font-size: 14px;
+        font-family: 'Roboto', sans-serif;
+        color: #ffffff;
+        cursor: pointer;
+        border-right: 3px solid;
+        border-right-color: #ffffff;
+    }
+    
+    .nav-author {
+        display: inline-block;
+        padding: 3px;
+        font-size: 20px;
+        font-family: 'Roboto', sans-serif;
+        color: #ffffff;;
+        border: 2px solid;
+        border-color: #ffffff;
+    }
+    
+    
+    .nav-item-one {
+        display: inline-block;
+        padding: 1px 25px;
+        font-size: 14px;
+        font-family: 'Roboto', sans-serif;
+        color: #ffffff;;
+        cursor: pointer;
+        margin: 3px auto;
+        border-left: 3px solid;
+        border-left-color: #ffffff;;
+    }
+    .header {
+        text-align: center;
+        margin: 0px 0px;
+        padding: 3px 10px;
+        background: linear-gradient(to right, #d4d124, hsl(65, 74%, 77%));
+    }
+    .container-wiki {
+        margin: 0px;
+        height: 250px;
+    }
+    /*__
+    .image-header {
+        width: 80%
+    } --*/
+    .intro {
+        margin: 0px 0px;
+        height: 250px;
+        background-image: url(https://4.bp.blogspot.com/-hQsfOWjEpj8/V7ZdW0fZe4I/AAAAAAAACbM/VfFjF2vPZ-UQbyw-DUgtyOHDKCdQVIKyACLcB/s1600/mariposas.jpg);
+        background-repeat: no-repeat;
+    }
+    
+    .footer {
+        margin: 0px 0px;
+        padding: 3px 10px;
+        background: linear-gradient(to right, #d4d124, hsl(65, 74%, 77%));
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .footer-link-tittle {
+        font-size: 14px;
+        font-family: 'Roboto', sans-serif;
+        color: #ffffff;;;
+        line-height: 24px;
+        margin: 0px 0px 10px;
+        padding: 0px;
+    }
+    
+    .footer-link {
+        margin: 20px 10px;
+        padding: 0px;
+        list-style: none;
+        font-size: 30px;
+        color: rgb(255, 255, 255);
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        cursor: pointer;
+    }
+    
+    #forrest {
+        text-align: right;
+        margin: 35px 0px 0px;
+    }
+
+    #gump {
+        text-align: right;
+        margin: 0px 0px 15px;
+    }
+    .footer-link-container {
+        padding: 3px 48px;
+        margin: 40px 40px ;
+        display: inline-block;
+        text-align: center;
+    }
+
+    .content {
+        margin: 7px 90px;
+        padding: 15px 55px;
+    }
+     
+    .content-desing {
+        border-right: 2px solid #807d7d;
+        border-left: 2px solid #807d7d;
+        padding: 0px 60px;
+        font-size: 20px;
+        font-family: 'Roboto Mono', monospace;
+        font-weight: 100px;
+        color: darkslategrey;
+        margin: 0px 180px;
+    }
+   
+    .índice {
+        font-size: 14px;
+        font-family: Verdana, sans-serif;
+        color: darkslategrey;
+        border-left: 5px solid;
+        border-left-color: #e49595;
+        padding: 0px 0px 0px 6px;
+    }
+    
+    
+     h1 {
+        font-size: 30px;
+        font-family: 'Josefin Sans', sans-serif;
+        color: darkslategrey;
+        text-align: center;
+        margin: 0px 350px 15px;
+    }
+    }
+     h2 {
+        font-size: 30px;
+        font-family: 'Josefin Sans', sans-serif;
+        color: darkslategrey;
+        text-align: right;
+        margin: 0px 350px 15px;
+    }
+    .body-personal-web {
+        font-size: 20px;
+        font-family: 'Gupter', serif;
+        color: darkslategrey;
+        text-align: justify;
+        margin: 60px 60px;
+        padding: 10px;
+    }
+    .container-books {
+        margin: 10px;
+        padding: 10px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .books {
+        width: 110px;
+        height: 110px;
+        margin: 20px;
+        padding: 7px;
+        background-color: rgb(53, 48, 48);  
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        box-shadow: 0px 5px 5px #949499;
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        font-size: 15px;
+    }
+
+    .best-seller {
+        text-decoration: none;
+        color: white;
+    }
+    
+    .best-seller.visited {
+        color: #ccc690;
+    }
+
+    .item {
+        text-decoration: none;
+        color: white;
+    }
+
+    .item.visited {
+        color: #ccc690;
+    }
+
+    .back-header.visited {
+        color: #ccc690;
+    }
+
+    .back-header {
+        text-decoration: none;
+        color: white; 
+    }
+
+    .return {
+    width: 128px;
+    height: 20px;
+    box-shadow: 2px 3px 6px #8b8787;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    font-size: 15px;
+    padding: 3px 2px 3px 0px;
+    text-align: center;
+    margin: 10px 0px 5px 700px;
+    cursor: pointer;
+    background-color:#d4d124;
+}
+    /*
+    
+  
+    font-family: 'Josefin Sans', sans-serif;
+    */
