@@ -133,15 +133,15 @@
     }
     
     
-     h1 {
+    h1 {
         font-size: 30px;
         font-family: 'Josefin Sans', sans-serif;
         color: darkslategrey;
         text-align: center;
         margin: 0px 350px 15px;
     }
-    }
-     h2 {
+    
+    h2 {
         font-size: 30px;
         font-family: 'Josefin Sans', sans-serif;
         color: darkslategrey;
