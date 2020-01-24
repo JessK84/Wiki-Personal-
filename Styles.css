@@ -44,7 +44,7 @@
         text-align: center;
         margin: 0px 0px;
         padding: 3px 10px;
-        background: linear-gradient(to right, #d4d124, hsl(65, 74%, 77%));
+        background: linear-gradient(to right, #EF5350, #EF9A9A);
     }
     .container-wiki {
         margin: 0px;
@@ -62,36 +62,36 @@
     }
     
     .footer {
-        margin: 0px 0px;
-        padding: 3px 10px;
-        background: linear-gradient(to right, #d4d124, hsl(65, 74%, 77%));
+        margin: 0px auto;
+        background: linear-gradient(to right, #EF5350, #EF9A9A);
         display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
-    
-    .footer-link-tittle {
-        font-size: 14px;
-        font-family: 'Roboto', sans-serif;
-        color: #ffffff;;;
-        line-height: 24px;
-        margin: 0px 0px 10px;
-        padding: 0px;
-    }
-    
-    .footer-link {
-        margin: 20px 10px;
-        padding: 0px;
-        list-style: none;
-        font-size: 30px;
-        color: rgb(255, 255, 255);
-        display: flex;
-        flex-direction: row;
+        flex-direction: row-reverse;
         justify-content: space-evenly;
-        cursor: pointer;
-    }
-    
-    #forrest {
+        padding: 0px 100px;
+        height: 230px;
+}    
+.footer-link {
+    list-style: none;
+    color: darkslategrey;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 50px;
+}
+.desging {
+    font-size: 20px;
+}
+input {
+    width: 350px;
+    height: 25px;
+    padding: 5px;
+    border-radius: 3px;
+    border: none;
+    padding-top: 3px;
+}   
+
+    .forrest {
         text-align: right;
         margin: 35px 0px 0px;
     }
@@ -103,7 +103,6 @@
     .footer-link-container {
         padding: 3px 48px;
         margin: 40px 40px ;
-        display: inline-block;
         text-align: center;
     }
 
@@ -122,7 +121,11 @@
         color: darkslategrey;
         margin: 0px 180px;
     }
-   
+.desing {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 13px;
+    color: darkslategrey;
+} 
     .índice {
         font-size: 14px;
         font-family: Verdana, sans-serif;
@@ -145,17 +148,19 @@
         font-size: 30px;
         font-family: 'Josefin Sans', sans-serif;
         color: darkslategrey;
-        text-align: right;
-        margin: 0px 350px 15px;
+        text-align: center;
+        margin: 0px auto;
     }
-    .body-personal-web {
-        font-size: 20px;
-        font-family: 'Gupter', serif;
-        color: darkslategrey;
-        text-align: justify;
-        margin: 60px 60px;
-        padding: 10px;
-    }
+   
+.body-personal-web {
+    font-size: 20px;
+    font-family: 'Gupter', serif;
+    color: darkslategrey;
+    text-align: justify;
+    margin: 60px 60px;
+    padding: 10px;    
+        
+}
     .container-books {
         margin: 10px;
         padding: 10px;
@@ -169,16 +174,14 @@
         height: 110px;
         margin: 20px;
         padding: 7px;
-        background-color: rgb(53, 48, 48);  
         display: flex;
         justify-content: center;
         align-items: center;
         text-align: center;
-        box-shadow: 0px 5px 5px #949499;
-        color: white;
+        color: black;
         font-family: 'Poppins', sans-serif;
         font-size: 15px;
-        background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSdenqoWXBEDlPceMzwdhAxvcPRrva0GuNWtd80qzpg-MzGYL7G);
+        background-color: #F44336;
     }
 
     .best-seller {
@@ -186,27 +189,19 @@
         color: white;
     }
     
-    .best-seller.visited {
-        color: #ccc690;
-    }
-
     .item {
         text-decoration: none;
         color: white;
     }
-
-    .item.visited {
-        color: #ccc690;
-    }
-
+    .best-seller.visited ,
+    .item.visited,
     .back-header.visited {
         color: #ccc690;
     }
-
-    .back-header {
-        text-decoration: none;
-        color: white; 
-    }
+.back-header {
+    text-decoration: none;
+    color: white; 
+}
 button {
     width: 156px;
     height: 40px;
@@ -221,17 +216,38 @@ button {
     background-color:#d4d124;
     border: none;
 }
-li:hover:not(.nav-author){
-    transform: scale(1.2);
-    color: rgb(223, 207, 207);
+.nav-item-one:hover {
+    transform: scale(1.2)
+}
+.nav-item:hover {
+    transform: scale(1.2)
+}
+li:hover :not(.nav-author){
+    color: #EEEEEE;
     
 }
 button:hover {
     position: relative;
     top: 2px;
     box-shadow: 2px 3px 6px #8b8787;
-    background-color: #d3d286 ;
+    background-color:;;
     
+}
+.cotainer-skill {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-left: 30px;
+    margin-bottom: 40px;
+}
+.logo-skill {
+    width: 18%;
+}
+
+i {
+    margin-right: 40px;
+    padding: 5px;
 }
     /*
     
